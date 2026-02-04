@@ -1,0 +1,24 @@
+{
+  "name": "CarboExample",
+  "private": true,
+  "type": "module",
+  "prettier": {
+    "xmlWhitespaceSensitivity": "ignore",
+    "objectWrap": "collapse",
+    "experimentalOperatorPosition": "start",
+    "experimentalTernaries": true,
+    "plugins": [
+      "@arnaud-barre/prettier-plugin-sort-imports"
+    ]
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@arnaud-barre/eslint-config": "^6.1.7",
+    "@arnaud-barre/prettier-plugin-sort-imports": "^0.2.4",
+    "@arnaud-barre/tsl-config": "^0.1.4",
+    "@types/node": "^22.18.0",
+    "prettier": "^3.6.2",
+    "tsl": "^1.0.28",
+    "typescript": "~5.9"
+  }
+}
