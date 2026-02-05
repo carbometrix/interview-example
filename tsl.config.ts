@@ -1,12 +1,7 @@
 import { allRules } from "@arnaud-barre/tsl-config";
-import { type AST, type Context, core, defineConfig, type Rule } from "tsl";
+import { core, defineConfig } from "tsl";
 
 export default defineConfig({
-  ignore: [
-    "prisma/generated",
-    "prisma/_ts-migrations-history/",
-    "src/generated/",
-  ],
   rules: [
     ...allRules,
     core.strictBooleanExpressions({
@@ -18,7 +13,6 @@ export default defineConfig({
       allowNullableString: true,
       allowNumber: false,
       allowString: true,
-    }),    
+    }),
   ],
 });
-

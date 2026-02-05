@@ -63,11 +63,11 @@ bun src/index.ts
 ## What will have to do during the interview?
 
 Come as you are, without your laptop. I'll have my laptop and you'll have to guide me writing
-some code. We won't use any other dependency than what's in this repository. Even if use AI at work,
+some code. We won't use any other dependency than what's in this repository. Even if we use AI at work,
 we won't use it during the interview as we want to see how _you_ think.
 
 We don't expect you to know everything about programming and computers, it's totally fine to
 ask if you're not sure about something.
 
 Please also note that we encourage you to challenge the specifications we'll give to you,
-thinking about edge cases.
+thinking about edge cases as if you were about to put the code in production.
