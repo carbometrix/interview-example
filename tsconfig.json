@@ -6,7 +6,7 @@
     "module": "ESNext",
     "moduleDetection": "force",
     "lib": ["ES2022", "DOM", "DOM.Iterable"],
-    "types": ["tsl/patches"],
+    "types": ["tsl/patches", "node"],
     "skipLibCheck": true,
 
     /* Bundler mode */
