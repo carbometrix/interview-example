@@ -1,4 +1,4 @@
-# Carbo Example
+# Carbometrix Example
 
 At Carbometrix, we're using Typescript. Great, but there are as much ways to write Typescript code as there are developers.
 
