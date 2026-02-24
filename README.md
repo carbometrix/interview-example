@@ -1,6 +1,6 @@
-# Carbometrix Example
+# Carbometrix Interview Example
 
-At Carbometrix, we're using Typescript. Great, but there are as much ways to write Typescript code as there are developers.
+At Carbometrix, we're using TypeScript. Great, but there are as much ways to write TypeScript code as there are developers.
 
 This repository is a (really) short overview of what kind of code we write at Carbometrix.
 
