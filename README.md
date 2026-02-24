@@ -60,7 +60,7 @@ how it fells writing with our rules):
 bun src/index.ts
 ```
 
-## What will have to do during the interview?
+## What will I have to do during the interview?
 
 Come as you are, without your laptop. I'll have my laptop and you'll have to guide me writing
 some code. We won't use any other dependency than what's in this repository. Even if we use AI at work,
