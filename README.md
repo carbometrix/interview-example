@@ -4,22 +4,17 @@ At Carbometrix, we're using TypeScript. Great, but there are as much ways to wri
 
 This repository is a (really) short overview of what kind of code we write at Carbometrix.
 
-As you can see in `tsconfig.json`, we're using a pretty strict set of rules. We're using the `any` type and `as` keyword
-as little as possible.
+As you can see in `tsconfig.json`, we're using a pretty strict set of rules. We're using the `any` type and `as` keyword as little as possible.
 
-You can also notice we're using [tsl](https://github.com/ArnaudBarre/tsl) to add "type aware" lint rules and the ability to define
-custom rules at project level.
+You can also notice we're using [tsl](https://github.com/ArnaudBarre/tsl) to add "type aware" lint rules and the ability to define custom rules at project level.
 
 During the interview, we mainly expect you to write code following these rules. **We don't expect you to be able to configure or explain how those rules work**.
 
-We also tend to avoid mutations, and keep them at function level if we actually feel simpler to mutate a variable. Especially, I think we never mutate
-arguments passed to functions (maybe there are some exceptions, but none come in mind right now).
+We also tend to avoid mutations, and keep them at function level if we actually feel simpler to mutate a variable. Especially, I think we never mutate arguments passed to functions (maybe there are some exceptions, but none come in mind right now).
 
-We tend to use functional programming patterns, building pretty big _expressions_ (in opposition of _statements_), using e.g. method
-chaining (mainly `.map`, `.filter`) and ternary operators (`condition ? valueIfTrue : valueIfFalse`).
+We tend to use functional programming patterns, building pretty big _expressions_ (in opposition of _statements_), using e.g. method chaining (mainly `.map`, `.filter`) and ternary operators (`condition ? valueIfTrue : valueIfFalse`).
 
-Note that the rules combinations allow for "exhaustive switch cases checks": e.g. if you have a value `value: "foo" | "bar" | "baz"`, the following
-code will trigger an error as `foo` is not covered by the switch case:
+Note that the rules combinations allow for "exhaustive switch cases checks": e.g. if you have a value `value: "foo" | "bar" | "baz"`, the following code will trigger an error as `foo` is not covered by the switch case:
 
 ```ts
 switch (value) {
@@ -50,24 +45,21 @@ const score = (() => {
 Install the dependencies:
 
 ```sh
-yarn install
+bun install
 ```
 
-Run the code (this file is a really short example, you're of course encouraged to experiment
-how it fells writing with our rules):
+Run the code (this file is a really short example, you're of course encouraged to experiment how it fells writing with our rules):
 
 ```sh
 bun src/index.ts
 ```
 
+(node 22.18+ works too, we are actually using node for production)
+
 ## What will I have to do during the interview?
 
-Come as you are, without your laptop. I'll have my laptop and you'll have to guide me writing
-some code. We won't use any other dependency than what's in this repository. Even if we use AI at work,
-we won't use it during the interview as we want to see how _you_ think.
+Come as you are, without your laptop. I'll have my laptop and you'll have to guide me writing some code. We won't use any other dependency than what's in this repository. Even if we use AI at work, we won't use it during the interview as we want to see how _you_ think.
 
-We don't expect you to know everything about programming and computers, it's totally fine to
-ask if you're not sure about something.
+We don't expect you to know everything about programming and computers, it's totally fine to ask if you're not sure about something.
 
-Please also note that we encourage you to challenge the specifications we'll give to you,
-thinking about edge cases as if you were about to put the code in production.
+Please also note that we encourage you to challenge the specifications we'll give to you, thinking about edge cases as if you were about to put the code in production.
